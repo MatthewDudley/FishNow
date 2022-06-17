@@ -11,6 +11,13 @@
 		F77939342858F222004D34F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77939332858F222004D34F1 /* ContentView.swift */; };
 		F77939362858F225004D34F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F77939352858F225004D34F1 /* Assets.xcassets */; };
 		F77939392858F225004D34F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F77939382858F225004D34F1 /* Preview Assets.xcassets */; };
+		F77B98EC285CB7EF00376F3E /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77B98EB285CB7EF00376F3E /* Home.swift */; };
+		F77B98F2285CBC3F00376F3E /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77B98F1285CBC3F00376F3E /* Profile.swift */; };
+		F77B98F4285CC1E000376F3E /* ProfileBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77B98F3285CC1E000376F3E /* ProfileBtn.swift */; };
+		F77B98F6285CCB5400376F3E /* UserIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77B98F5285CCB5400376F3E /* UserIcon.swift */; };
+		F7D73F22285CDE4600EADFFB /* BackBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D73F21285CDE4600EADFFB /* BackBtn.swift */; };
+		F7D73F24285CFD5B00EADFFB /* EventContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D73F23285CFD5B00EADFFB /* EventContainer.swift */; };
+		F7D73F26285D14C400EADFFB /* EventDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D73F25285D14C400EADFFB /* EventDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		F77939332858F222004D34F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F77939352858F225004D34F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F77939382858F225004D34F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F77B98EB285CB7EF00376F3E /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		F77B98F1285CBC3F00376F3E /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		F77B98F3285CC1E000376F3E /* ProfileBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileBtn.swift; sourceTree = "<group>"; };
+		F77B98F5285CCB5400376F3E /* UserIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserIcon.swift; sourceTree = "<group>"; };
+		F7D73F21285CDE4600EADFFB /* BackBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackBtn.swift; sourceTree = "<group>"; };
+		F7D73F23285CFD5B00EADFFB /* EventContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventContainer.swift; sourceTree = "<group>"; };
+		F7D73F25285D14C400EADFFB /* EventDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +65,8 @@
 		F77939302858F222004D34F1 /* FishNow */ = {
 			isa = PBXGroup;
 			children = (
+				F77B98EA285CB7AC00376F3E /* Components */,
+				F77B98E9285CB7A100376F3E /* Views */,
 				F77939312858F222004D34F1 /* FishNowApp.swift */,
 				F77939332858F222004D34F1 /* ContentView.swift */,
 				F77939352858F225004D34F1 /* Assets.xcassets */,
@@ -65,6 +81,27 @@
 				F77939382858F225004D34F1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F77B98E9285CB7A100376F3E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F77B98EB285CB7EF00376F3E /* Home.swift */,
+				F77B98F1285CBC3F00376F3E /* Profile.swift */,
+				F7D73F25285D14C400EADFFB /* EventDetails.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F77B98EA285CB7AC00376F3E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F77B98F3285CC1E000376F3E /* ProfileBtn.swift */,
+				F77B98F5285CCB5400376F3E /* UserIcon.swift */,
+				F7D73F21285CDE4600EADFFB /* BackBtn.swift */,
+				F7D73F23285CFD5B00EADFFB /* EventContainer.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +174,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F77B98F6285CCB5400376F3E /* UserIcon.swift in Sources */,
+				F7D73F26285D14C400EADFFB /* EventDetails.swift in Sources */,
+				F77B98F2285CBC3F00376F3E /* Profile.swift in Sources */,
 				F77939342858F222004D34F1 /* ContentView.swift in Sources */,
+				F7D73F22285CDE4600EADFFB /* BackBtn.swift in Sources */,
+				F7D73F24285CFD5B00EADFFB /* EventContainer.swift in Sources */,
+				F77B98EC285CB7EF00376F3E /* Home.swift in Sources */,
 				F77939322858F222004D34F1 /* FishNowApp.swift in Sources */,
+				F77B98F4285CC1E000376F3E /* ProfileBtn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
